@@ -1,30 +1,58 @@
 # explainable-ai-endometriosis
-Explainable deep learning models for non-invasive diagnosis of endometriosis using SHAP and Grad-CAM
 Explainable AI for Endometriosis Diagnosis
 
-This project presents a deep learning framework for the non-invasive diagnosis of endometriosis using explainable artificial intelligence techniques.
+A deep learning and explainable AI framework for non-invasive diagnosis of endometriosis, designed to improve clinical decision-making through transparency and multimodal learning.
 
-Overview
+Problem Statement
+Endometriosis is a complex and often underdiagnosed condition due to the limitations of invasive diagnostic procedures and delayed symptom recognition.
+This project addresses the challenge by developing an AI-driven, interpretable diagnostic system that supports early detection and improves trust in machine learning predictions.
 
-Endometriosis is a complex medical condition that is often difficult to diagnose early. This project explores the use of deep learning models combined with interpretability methods to improve diagnostic accuracy and clinical trust.
-
-Methods
+Approach
+This work combines deep learning, explainable AI, and multimodal data fusion:
 Deep Neural Networks for classification
-SHAP (SHapley Additive Explanations) for feature importance
-Grad-CAM for visual interpretability
-Multimodal data fusion (image + simulated structured data)
+SHAP for feature-level interpretability
+Grad-CAM for visual explanation of model predictions
+Multimodal fusion of:
+Medical imaging data
+Simulated structured clinical features
+
+Methodology
+Image-based model training using medical datasets
+Extraction of meaningful features from imaging data
+Simulation of structured clinical dataset based on domain-informed patterns
+Fusion of image + structured data at decision level
+Application of XAI techniques (SHAP, Grad-CAM)
+Evaluation using accuracy, interpretability, and clinical relevance
+
+Key Contributions
+Developed an interpretable deep learning model for medical diagnosis
+Improved model transparency and trust using SHAP and Grad-CAM
+Introduced a multimodal fusion strategy for enhanced performance
+Designed a system suitable for real-world clinical deployment
 
 Data
-Medical imaging dataset (confidential / restricted)
+Medical imaging dataset (restricted due to privacy)
 Simulated structured dataset derived from imaging insights
-Key Contributions
-Developed interpretable AI models for clinical decision support
-Improved transparency of predictions using XAI techniques
-Demonstrated potential for real-world healthcare deployment
 
-Related Publications
+Note: Due to confidentiality, raw datasets are not publicly available. Synthetic/sample data may be added for demonstration purposes.
+
+Publications
 Explainable AI for Endometriosis Diagnosis (2025)
-Grad-CAM for Clinical AI (2025)
+Enhancing Non-Invasive Diagnosis using Grad-CAM (2025)
+Multimodal Fusion for Clinical Decision Support (2026)
 
-Note
-Due to data privacy, datasets are not publicly available. Synthetic or sample data may be provided for demonstration.
+Tech Stack 
+Python
+TensorFlow / PyTorch
+Scikit-learn
+SHAP
+OpenCV
+NumPy / Pandas
+
+Impact
+This project contributes to the growing field of AI in healthcare, focusing on building systems that are not only accurate but also interpretable, trustworthy, and deployable in real-world environments.
+
+Author
+
+Oluwayemisi Boye Fatade, PhD
+Applied AI Researcher | Explainable AI | Healthcare AI
